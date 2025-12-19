@@ -197,82 +197,64 @@ def generate_annotation(texts):
 # POST-PROCESSING: Generate human-readable concepts from NER output
 # ============================================================================
 
-# Expanded list of entities to skip (non-clinical/generic terms)
-SKIP_ENTITIES = {
+# Generic skip words (non-informative terms, not domain-specific)
+SKIP_TERMS = {
     # View/imaging terms
-    'pa', 'ap', 'frontal', 'lateral', 'lateral views', 'lateral radiographs',
-    'chest', 'views', 'radiographs', 'chest radiographs', 'lateral chest radiographs',
-    'portable', 'single', 'view', 'film', 'image', 'study', 'exam', 'examination',
+    'pa', 'ap', 'frontal', 'lateral', 'views', 'radiographs', 'radiograph',
+    'chest', 'view', 'film', 'image', 'study', 'exam', 'examination',
+    'portable', 'single', 'obtained', 'provided', 'performed',
     # Generic terms
     'post', 'changes', 'noted', 'seen', 'detected', 'identified', 'demonstrated',
-    'evidence', 'imaged', 'imaging', 'comparison', 'prior', 'obtained', 'provided',
+    'evidence', 'imaged', 'imaging', 'comparison', 'prior', 'status',
     'patient', 'finding', 'findings', 'appearance', 'appears', 'region', 'area',
     'side', 'aspect', 'level', 'position', 'expected', 'appropriate', 'interval',
-    'no free', 'free air', 'limits', 'within', 'without', 'however', 'otherwise',
-    # Observation words that shouldn't be standalone concepts
+    'limits', 'within', 'without', 'however', 'otherwise', 'there', 'are', 'is',
+    # Standalone descriptors (should modify other terms)
     'low', 'bilaterally', 'stable', 'unchanged', 'unremarkable', 'intact',
     'clear', 'normal', 'mild', 'moderate', 'minimal', 'increased', 'decreased',
     'small', 'large', 'tiny', 'prominent', 'mildly', 'slightly', 'midline',
-    # Body parts that are too generic alone
-    'contiguous', 'terminate', 'consistent with', 'suggestive', 'exam',
-    'interim', 'configuration', 'silhouette', 'contour', 'contours'
+    # Generic anatomical terms too vague alone
+    'contiguous', 'terminate', 'suggestive', 'interim', 'configuration',
+    'silhouette', 'contour', 'contours', 'consistent', 'no free', 'free air'
 }
 
-# Clinical entities that are important to keep
-CLINICAL_ENTITIES = {
-    # Organs and structures
-    'lungs', 'lung', 'heart', 'cardiac', 'aorta', 'aortic', 'mediastinum',
-    'diaphragm', 'hemidiaphragm', 'hilum', 'hilar', 'pleura', 'pleural',
-    'spine', 'rib', 'ribs', 'sternum', 'clavicle', 'scapula', 'thorax',
-    # Pathology/findings
-    'pneumothorax', 'effusion', 'consolidation', 'atelectasis', 'opacity',
-    'opacities', 'edema', 'congestion', 'cardiomegaly', 'nodule', 'nodules',
-    'mass', 'lesion', 'fracture', 'fractures', 'granuloma', 'infiltrate',
-    'thickening', 'scarring', 'calcification', 'calcifications', 'fibrosis',
-    # Combined clinical terms (keep as-is)
-    'pleural effusion', 'pulmonary edema', 'interstitial edema', 'focal consolidation',
-    'pulmonary vascular congestion', 'cardiac silhouette', 'cardiomediastinal silhouette',
-    'heart size', 'lung volumes', 'rib fractures', 'bony structures', 'osseous structures',
-    'mediastinal contours', 'hilar contours', 'cardiac contours', 'pulmonary vasculature',
-    'interstitial markings', 'vascular markings', 'bronchovascular markings'
+# Observation words that can modify entities
+OBSERVATION_WORDS = {
+    'clear', 'normal', 'stable', 'unchanged', 'unremarkable', 'intact',
+    'enlarged', 'calcified', 'tortuous', 'hyperinflated', 'mild', 'moderate',
+    'severe', 'small', 'large', 'minimal', 'prominent', 'increased', 'decreased'
 }
 
-# Entities that should include location modifiers
-LOCATION_RELEVANT = {
-    'effusion', 'opacity', 'opacities', 'consolidation', 'atelectasis',
-    'nodule', 'nodules', 'mass', 'lesion', 'fracture', 'fractures',
-    'pneumothorax', 'infiltrate', 'density', 'scarring', 'granuloma',
-    'lung', 'lobe', 'hilum', 'hemidiaphragm', 'pleural thickening'
-}
-
-def is_clinical_entity(text):
-    """Check if entity is clinically relevant."""
-    text_lower = text.lower()
+def is_valid_entity(text, label):
+    """Check if entity should be kept based on generic rules."""
+    text_lower = text.lower().strip()
     
     # Skip if in skip list
-    if text_lower in SKIP_ENTITIES:
+    if text_lower in SKIP_TERMS:
         return False
     
-    # Keep if it's a known clinical entity
-    if text_lower in CLINICAL_ENTITIES:
+    # Skip very short entities (less than 3 chars)
+    if len(text_lower) < 3:
+        return False
+    
+    # Skip single character or number-only entities
+    if text_lower.isdigit() or len(text_lower) == 1:
+        return False
+    
+    # Keep entities with specific labels from disease/chemical model
+    if label in {'DISEASE', 'CHEMICAL'}:
         return True
     
-    # Keep if it contains clinical keywords
-    clinical_keywords = ['pneumo', 'effusion', 'consolidat', 'atelect', 'edema',
-                        'cardiomeg', 'opacity', 'nodule', 'fracture', 'granulom',
-                        'congestion', 'infiltrat', 'pleural', 'pulmonary', 'cardiac',
-                        'aortic', 'mediastin', 'vascular', 'interstitial']
-    for kw in clinical_keywords:
-        if kw in text_lower:
-            return True
-    
-    # Skip very short entities
-    if len(text_lower) < 4:
-        return False
-    
-    # Keep multi-word entities that look clinical
+    # Keep multi-word entities (more descriptive)
     words = text_lower.split()
     if len(words) >= 2:
+        # Skip if first word is just a determiner/preposition
+        skip_first = {'the', 'a', 'an', 'of', 'in', 'on', 'at', 'to', 'for', 'with', 'no'}
+        if words[0] not in skip_first:
+            return True
+    
+    # For single words, keep if length > 4 (more likely to be meaningful)
+    if len(text_lower) > 4:
         return True
     
     return False
@@ -281,15 +263,16 @@ def generate_concept(entity):
     """Generate a human-readable concept from an entity."""
     text = entity['text'].lower().strip()
     negated = entity['negated']
+    label = entity.get('label', 'ENTITY')
     modifiers = entity.get('modifiers', [])
     observations = entity.get('observations', [])
     
-    # Skip non-clinical entities
-    if not is_clinical_entity(text):
+    # Skip invalid entities
+    if not is_valid_entity(text, label):
         return None
     
-    # Skip if the entity text is same as an observation
-    if text in observations or text in SKIP_ENTITIES:
+    # Skip if entity text matches an observation word (standalone)
+    if text in OBSERVATION_WORDS:
         return None
     
     parts = []
@@ -298,31 +281,23 @@ def generate_concept(entity):
     if negated:
         parts.append("no")
     
-    # Only add location for specific clinical findings (not for negated items)
+    # Add location for non-negated entities
     if not negated:
-        # Check if this entity type benefits from location
-        should_add_location = any(loc_term in text for loc_term in LOCATION_RELEVANT)
-        if should_add_location:
-            location_terms = [m for m in modifiers if m in {'left', 'right', 'bilateral'}]
-            if location_terms:
-                parts.append(location_terms[0])
+        location_terms = [m for m in modifiers if m in {'left', 'right', 'bilateral'}]
+        if location_terms:
+            parts.append(location_terms[0])
     
-    # Add descriptive observation for non-negated entities
+    # Add observation descriptor for non-negated entities
     if not negated:
-        # Priority order for observations
-        priority_obs = ['hyperinflated', 'enlarged', 'calcified', 'tortuous', 
-                       'clear', 'normal', 'stable', 'mild', 'moderate', 'severe',
-                       'small', 'large', 'minimal', 'prominent']
-        
-        for obs in priority_obs:
-            if obs in observations and obs not in text:
+        for obs in observations:
+            if obs in OBSERVATION_WORDS and obs not in text:
                 parts.append(obs)
                 break
     
     # Add the main entity text
     parts.append(text)
     
-    # Clean up redundant words
+    # Clean up
     concept = ' '.join(parts)
     words = concept.split()
     cleaned = []
@@ -358,17 +333,16 @@ def concepts_are_similar(c1, c2):
     return False
 
 def generate_concepts_from_entities(entities):
-    """Generate a list of unique, clinically relevant concepts."""
+    """Generate a list of unique concepts from entities."""
     concepts = []
     
     for entity in entities:
         concept = generate_concept(entity)
         if concept and len(concept) > 3:
-            # Check for duplicates or very similar concepts
+            # Check for duplicates
             is_duplicate = False
             for existing in concepts:
                 if concepts_are_similar(concept, existing):
-                    # Keep the longer/more descriptive one
                     if len(concept) > len(existing):
                         concepts.remove(existing)
                         concepts.append(concept)
