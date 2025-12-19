@@ -457,11 +457,11 @@ for i in range(num_docs):
     pred_norm.append(pred_concepts)
     
     # Print first 10 for visual inspection
-    if i < 10:
+    if i in (3,4,398,123,234,267,67):
         print(f"\n--- Document {i+1} ---")
-        print(f"GT:   {gt_concepts[:5]}..." if len(gt_concepts) > 5 else f"GT:   {gt_concepts}")
-        print(f"PRED: {pred_concepts[:5]}..." if len(pred_concepts) > 5 else f"PRED: {pred_concepts}")
-
+        print(f"GT:   {gt_concepts}")
+        print(f"PRED: {pred_concepts}")
+        
 # Calculate F1 scores at different thresholds
 print("\n" + "="*80)
 print("F1 SCORE RESULTS (FUZZY MATCHING)")
