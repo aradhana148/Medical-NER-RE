@@ -35,3 +35,46 @@ PRED: ['cardiomediastinal', 'normal hilar contours', 'normal lungs', 'no focal c
 --- Document 399 ---
 GT:   ['normal heart size', 'normal mediastinal and hilar contours', 'normal pulmonary vasculature', 'clear lungs', 'no pleural effusion', 'no pneumothorax', 'no acute osseous abnormalities', 'mild degenerative changes in thoracic spine']
 PRED: ['normal heart size', 'normal mediastinal', 'normal hilar contours', 'normal pulmonary vasculature', 'normal lungs', 'no pleural effusion', 'no pneumothorax', 'no acute osseous abnormalities', 'mild degenerative changes', 'thoracic spine']
+
+
+for final_gt.csv:
+
+Total documents evaluated: 95
+
+Threshold | Precision | Recall  | F1 Score | (TP, FP, FN)
+------------------------------------------------------------
+   0.50   |   0.5673  | 0.8541 |  0.6817  | (603, 460, 103)
+   0.60   |   0.4939  | 0.7436 |  0.5936  | (525, 538, 181)
+   0.70   |   0.3838  | 0.5779 |  0.4613  | (408, 655, 298)
+   0.75   |   0.3819  | 0.5751 |  0.4590  | (406, 657, 300)
+   0.80   |   0.3612  | 0.5439 |  0.4341  | (384, 679, 322)
+   0.85   |   0.2973  | 0.4476 |  0.3573  | (316, 747, 390)
+   0.90   |   0.2625  | 0.3952 |  0.3154  | (279, 784, 427)
+   
+--- Document 4 ---
+GT:   ['moderate cardiomegaly', 'mild vascular congestion', 'small bilateral pleural effusions', 'subsequent areas of atelectasis', 'no focal consolidation', 'no pneumothorax']
+PRED: ['mild moderate cardiomegaly', 'bilateral small vascular congestion', 'bilateral small pleural effusions', 'atelectasis', 'no focal consolidation', 'no pneumothorax']
+
+--- Document 5 ---
+GT:   ['clear lungs', 'no pleural effusion', 'no pneumothorax', 'normal cardiac silhouette', 'normal mediastinal silhouette']
+PRED: ['clear lungs', 'no focal consolidation', 'no pleural effusion', 'no pneumothorax', 'unremarkable cardiac', 'unremarkable mediastinal silhouettes']
+
+--- Document 14 ---
+GT:   ['clear lungs', 'no focal consolidation', 'no pleural effusion', 'no pulmonary edema', 'normal heart size', 'tortuous aorta', 'normal mediastinal contours', 'normal hilar contours']
+PRED: ['clear lungs', 'no focal consolidation', 'no pleural effusion', 'no pneumothorax', 'no pulmonary edema', 'normal heart size', 'normal aorta', 'tortuous mediastinal', 'normal hilar contours']
+
+--- Document 25 ---
+GT:   ['normal hilar contour', 'clear lung', 'no acute osseous abnormality', 'normal cardiac contour', 'normal mediastinal contour', 'no pleural effusion', 'no pneumothorax', 'normal pulmonary vascularity']
+PRED: ['cardiac', 'mediastinal', 'normal hilar contours', 'normal lungs', 'no focal consolidation', 'normal pulmonary vascularity', 'no pleural effusion', 'no pneumothorax', 'no osseous', 'no abnormality']
+
+--- Document 28 ---
+GT:   ['Low lung volumes', 'no focal consolidation', 'no pleural effusion', 'no pneumothorax', 'normal heart size', 'normal mediastinal contours']
+PRED: ['volumes', 'clear lungs', 'clear focal consolidation', 'clear pleural effusion', 'pneumothorax', 'normal heart size', 'normal mediastinal contours']
+
+--- Document 39 ---
+GT:   ['mild interstitial pulmonary edema', 'no pleural effusion', 'mediastinal adenopathy in right paratracheal station', 'no confluent consolidation', 'blastic changes in spine likely from treated malignancy']
+PRED: ['new widespread mild', 'mild interstitial pulmonary abnormality', 'edema', 'no pleural effusion', 'mediastinal adenopathy', 'right paratracheal station', 'no consolidation', 'lateral view', 'blastic', 'spine', 'midthoracic', 'vertebral body', 'no displacement', 'no treated', 'no malignancy']
+
+--- Document 68 ---
+GT:   ['normal chest x-ray', 'no focal consolidation', 'no pleural effusion', 'no pneumothorax', 'normal cardiomediastinal silhouette', 'intact osseous structures', 'no free air below right hemidiaphragm']
+PRED: ['lateral views', 'no focal consolidation', 'no effusion', 'no pneumothorax', 'normal cardiomediastinal silhouette', 'normal osseous structures', 'no right hemidiaphragm']
