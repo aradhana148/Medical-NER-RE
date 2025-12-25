@@ -1,0 +1,477 @@
+[
+    {
+        "id": "83",
+        "report": "The cardiac, mediastinal and hilar  contours are normal.  The pulmonary vascularity is normal.  Lungs are clear.   No pleural effusion or pneumothorax is present.  No acute osseous abnormality  is seen. ",
+        "concepts": "normal cardiac contours,normal mediastinal contours,normal hilar contours,normal vascularity,clear lungs,no pleural effusion,no pneumothorax,no osseous acute abnormality,"
+    },
+    {
+        "id": "18",
+        "report": "  PA and lateral views of the chest provided demonstrate no focal  consolidation, effusion or pneumothorax.  The cardiomediastinal silhouette is  normal.  Bony structures are intact.  No free air is seen below the right  hemidiaphragm.    ",
+        "concepts": "no focal consolidation,no effusion,no pneumothorax,normal cardiomediastinal silhouette,intact bony structures,no below right hemidiaphragm air,"
+    },
+    {
+        "id": "61",
+        "report": "    The cardiac, mediastinal and hilar contours are within normal limits.   Pulmonary vascularity is normal.  The lungs are clear.  No pleural effusion or  pneumothorax is seen.  No acute osseous abnormalities visualized.    ",
+        "concepts": "normal cardiac contours,normal mediastinal contours,normal hilar contours,normal vascularity,clear lungs,no pleural effusion,no pneumothorax,no osseous acute abnormalities,"
+    },
+    {
+        "id": "56",
+        "report": "Moderate cardiomegaly is seen with possibly mild vascular  congestion.  There are small bilateral pleural effusions with subsequent areas  of atelectasis.  No focal consolidation or pneumothorax seen. ",
+        "concepts": "moderate cardiomegaly,mild congestion vascular,small effusions bilateral pleural,no focal consolidation,no pneumothorax,"
+    },
+    {
+        "id": "37",
+        "report": "The lungs are clear without focal consolidation.  No pleural effusion or  pneumothorax is seen. The cardiac and mediastinal silhouettes are  unremarkable.",
+        "concepts": "clear lungs,no focal consolidation,no pleural effusion,no pneumothorax,normal cardiac silhouettes,normal mediastinal silhouettes,"
+    },
+    {
+        "id": "81",
+        "report": "     The lungs are clear without focal consolidation, effusion, or edema.  The  cardiomediastinal silhouette is within normal limits.    ",
+        "concepts": "clear lungs,no focal consolidation,no effusion,no edema,within normal cardiomediastinal silhouette,"
+    },
+    {
+        "id": "36",
+        "report": "PA and lateral views of the chest were provided.  Midline  sternotomy wires and mediastinal clips are noted compatible with prior CABG.   The heart remained slightly enlarged.  There is mild pulmonary interstitial  edema and engorged hila.  There is no effusion or pneumothorax.  No definite  sign of pneumonia.  Bony structures are intact.  No free air below the right  hemidiaphragm.",
+        "concepts": "midline sternotomy wires,slightly enlarged heart,mild edema interstitial,engorged hila,no effusion,no pneumothorax,no pneumonia,intact bony structures,no below right hemidiaphragm free air,"
+    },
+    {
+        "id": "73",
+        "report": "PA and lateral views of the chest provided demonstrate bilateral  lower lung patchy opacities most confluent in the left lower lung which is  compatible with pneumonia.  No large effusion or pneumothorax.   Cardiomediastinal silhouette is normal.  Bony structures are intact.",
+        "concepts": "patchy opacities confluent bilateral lower lung suggestive of opacities suggestive of pneumonia,no large effusion,no pneumothorax,normal cardiomediastinal silhouette,intact bony structures,"
+    },
+    {
+        "id": "95",
+        "report": "  The heart is normal in size.  There is mild unfolding of the  thoracic aorta.  The mediastinal and hilar contours are otherwise  unremarkable.  There is coarse hazy and streaky opacification involving the  right mid to lower lung.  Opacities the left lower lobe and lingula are not  specific and could be seen with atelectasis or bronchopneumonia.  Lungs are  hyperinflated, and noting irregular pulmonary architecture, emphysema is  suspected.  There is no pleural effusion or pneumothorax.  Small osteophytes  are noted along the thoracic spine.    ",
+        "concepts": "mild unfolding thoracic aorta,normal mediastinal contours,normal hilar contours,coarse hazy,opacities left lower lobe,opacities lingula suggestive of opacities suggestive of atelectasis,opacities opacities suggestive of bronchopneumonia,hyperinflated lungs suggestive of hyperinflated suggestive of emphysema,irregular architecture,no pleural effusion,no pneumothorax,small osteophytes thoracic spine,"
+    },
+    {
+        "id": "44",
+        "report": "The cardiac silhouette is moderately enlarged.  There is central pulmonary  vascular engorgement with indistinct margins as well as increased peripheral  reticulations and increased perihilar and bibasilar opacities compatible with  moderate pulmonary edema.  There is no pleural effusion or pneumothorax.",
+        "concepts": "engorgement central pulmonary vascular,indistinct margins,increased reticulations peripheral,increased opacities perihilar,increased bibasilar suggestive of opacities suggestive of edema,moderate edema pulmonary,no pleural effusion,no pneumothorax,"
+    },
+    {
+        "id": "67",
+        "report": "Previously visualized left lower lobe opacity has improved and is suggestive  of resolving pneumonia.  No new consolidations are identified.  There is no  pleural effusion or pneumothorax.  Cardiac and mediastinal silhouettes are  normal.  No acute fractures are identified.",
+        "concepts": "opacity improved left lower lobe suggestive of opacity suggestive of pneumonia,resolving pneumonia,no new consolidations,no pleural effusion,no pneumothorax,normal cardiac silhouettes,normal mediastinal silhouettes,no acute fractures,"
+    },
+    {
+        "id": "89",
+        "report": "     The cardiac silhouette is normal in size. The mediastinal contours are  unremarkable.  Mild prominence of the hila is noted. There are small bilateral  pleural effusions. Diffuse increased interstitial markings likely reflects  moderate pulmonary edema. Slightly more confluent opacities, especially in the  right mid and lower lung are noted, which may represent a developing  infectious process. Gaseous distention of small bowel loops in the upper  abdomen is noted. Irregularity of the right anterolateral second rib may  reflect prior fracture.    ",
+        "concepts": "normal cardiac silhouette,normal mediastinal contours,mild prominence hila,small effusions bilateral pleural,diffuse increased markings interstitial suggestive of markings suggestive of edema,moderate edema pulmonary,slightly more confluent confluent opacities right mid lower lung,gaseous distention,irregularity right anterolateral second rib,"
+    },
+    {
+        "id": "20",
+        "report": "  PA and lateral views of the chest were obtained demonstrating clear  lungs without focal consolidation, effusion, or pneumothorax.  The heart and  mediastinal contours.  Bony structures are intact.  No free air below the  right hemidiaphragm.    ",
+        "concepts": "clear lungs,no focal consolidation,no effusion,no pneumothorax,intact bony structures,no below right hemidiaphragm free air,"
+    },
+    {
+        "id": "92",
+        "report": "    The lungs are clear without focal consolidation, pleural effusion,  pneumothorax, or pulmonary edema.  The heart size is normal.  The aorta is  noted to be somewhat tortuous.  Mediastinal and hilar contours are otherwise  normal.    ",
+        "concepts": "clear lungs,no focal consolidation,no pleural effusion,no pneumothorax,no pulmonary edema,normal heart size,tortuous aorta,normal mediastinal contours,normal hilar contours,"
+    },
+    {
+        "id": "99",
+        "report": "  There is a moderate cardiomegaly and moderate pulmonary edema. Mild blunting  of the right cardiophrenic angle, likely due to overlying soft tissue.  There  is no pneumothorax.  The mediastinum and hila are normal.    ",
+        "concepts": "moderate cardiomegaly,moderate edema pulmonary,mild blunting,overlying soft tissue,no pneumothorax,normal mediastinum,normal hila,"
+    },
+    {
+        "id": "34",
+        "report": "  The heart is normal in size.  The mediastinal and hilar contours  appear within normal limits.  Trace bilateral pleural effusions are suspected.  There are patchy opacities in both lower lobes, as well as probable opacities  in the right middle lobe and lingula, worrisome for pneumonia.  The bony  structures are unremarkable.    ",
+        "concepts": "normal heart size,normal mediastinal contours,normal hilar contours,trace effusions bilateral pleural,patchy opacities both lower lobes,opacities lobe,opacities lingula suggestive of opacities suggestive of pneumonia,"
+    },
+    {
+        "id": "79",
+        "report": "Subtle haziness projecting over the mid to lower lung field bilaterally is  felt most likely due to overlying soft tissue. There are increased  interstitial markings bilaterally which may be due to chronic lung disease or  mild interstitial edema. Streaky and bilateral lower lobe atelectasis is seen.  No definite focal consolidation is identified. There is no pleural effusion or  pneumothorax. The cardiac silhouette is top-normal to mildly enlarged.  Mediastinal contours are unremarkable.",
+        "concepts": "soft tissue,increased markings interstitial bilaterally suggestive of markings suggestive of disease,increased markings suggestive of edema,chronic disease lung,mild edema interstitial,streaky atelectasis,no focal consolidation,no pleural effusion,no pneumothorax,normal cardiac silhouette,mildly enlarged cardiac silhouette,normal mediastinal contours,"
+    },
+    {
+        "id": "58",
+        "report": "     PA and lateral views of the chest provided.    There is no focal consolidation, effusion, or pneumothorax. The  cardiomediastinal silhouette is normal. Imaged osseous structures are intact.   No free air below the right hemidiaphragm is seen.    ",
+        "concepts": "no focal consolidation,no effusion,no pneumothorax,normal cardiomediastinal silhouette,intact osseous structures,"
+    },
+    {
+        "id": "33",
+        "report": "Frontal and lateral views of the chest were obtained.  Ill-defined opacities  in both lower lobes and the lingula are new.  The pulmonary vascular markings  are indistinct.  Mild cardiomegaly is unchanged.  Cardiomediastinal contours  are stable.  No substantial pleural effusion or pneumothorax.",
+        "concepts": "ill - defined opacities new both lower lobes,ill lingula,markings indistinct,mild cardiomegaly unchanged,stable cardiomediastinal contours,no pleural substantial effusion,no pneumothorax,"
+    },
+    {
+        "id": "74",
+        "report": "PA and lateral views of the chest.  No prior.  The lungs are clear  of consolidation or effusion.  Cardiomediastinal silhouette is normal.   Osseous and soft tissue structures are unremarkable.",
+        "concepts": "no consolidation,no effusion,normal cardiomediastinal silhouette,normal osseous,normal soft tissue,"
+    },
+    {
+        "id": "47",
+        "report": "Frontal and lateral views of the chest were obtained.  There is  moderate pulmonary edema.  Superimposed infectious process is not entirely  excluded.  Trace blunting of the costophrenic angle suggests trace bilateral  pleural effusions.  The cardiac and mediastinal silhouettes are grossly  stable.  There is no pneumothorax.",
+        "concepts": "moderate edema pulmonary,infectious process,trace blunting costophrenic angle suggestive of blunting suggestive of effusions,trace effusions bilateral pleural,stable cardiac silhouettes,stable mediastinal silhouettes,no pneumothorax,"
+    },
+    {
+        "id": "97",
+        "report": "  PA and lateral views of the chest were obtained.  Since the prior  exams, there is significant interval increase in the ill-defined opacity  involving the majority of right hemithorax which is concerning for disease  progression.  The possibility of a superimposed contusion given the history of  trauma is impossible to exclude.  There may be a trace right pleural effusion.  There is subtle opacity at the left lung base which is new though most likely  represents metastatic disease.  In addition a small area of nodularity in the  left upper lung is most compatible with metastatic disease.  Cardiomediastinal  silhouette appears stable.  Bony structures appear grossly intact.  No  definite displaced rib fractures are identified.    ",
+        "concepts": "ill - defined,disease progression,superimposed contusion,trace effusion right pleural,subtle opacity new base suggestive of opacity suggestive of metastatic disease,metastatic disease,small area nodularity left upper lung suggestive of nodularity suggestive of metastatic disease,stable cardiomediastinal silhouette,no rib displaced fractures,"
+    },
+    {
+        "id": "87",
+        "report": "    Heart size is normal.  Prominence of the right hilum is compatible with  underlying lymphadenopathy.  Aorta is unfolded.  Consolidative opacification  within the right upper lobe is compatible with pneumonia.  Minimal atelectatic  changes are noted in the lung bases.  No pleural effusion, pneumothorax, or  pulmonary vascular congestion is demonstrated.  Cholecystectomy clips are  present in the right upper quadrant of the abdomen.    ",
+        "concepts": "normal heart size,prominence right hilum suggestive of prominence suggestive of lymphadenopathy,unfolded aorta,consolidative opacification right upper lobe suggestive of consolidative opacification suggestive of pneumonia,atelectatic changes,no pleural effusion,no pneumothorax,no pulmonary vascular congestion,cholecystectomy clips abdomen,"
+    },
+    {
+        "id": "49",
+        "report": "     Cardiac silhouette size appears moderately enlarged, increased from prior.   The mediastinal and hilar contours are within normal limits.  Mild perihilar  haziness and vascular indistinctness compatible with mild pulmonary vascular  congestion.  No focal consolidation, pleural effusion or pneumothorax is seen.  There are no acute osseous abnormalities.    ",
+        "concepts": "moderately enlarged cardiac silhouette size,within normal,mild haziness perihilar,indistinctness vascular suggestive of indistinctness suggestive of congestion,mild congestion pulmonary vascular,no focal consolidation,no pleural effusion,no pneumothorax,no acute,no abnormalities,"
+    },
+    {
+        "id": "9",
+        "report": "The cardiac, mediastinal, and hilar  contours are normal.  The lungs are clear without focal consolidation.  The  pulmonary vascularity is normal.  No pleural effusion or pneumothorax is  present.  No acute osseous abnormality is seen. ",
+        "concepts": "normal cardiac contours,normal mediastinal contours,normal hilar contours,clear lungs,no focal consolidation,normal vascularity,no pleural effusion,no pneumothorax,no osseous acute abnormality,"
+    },
+    {
+        "id": "94",
+        "report": "In comparison with the earlier study of this date, the cardiac  silhouette is within upper limits of normal in size.  There is mild  indistinctness of pulmonary vessels raising the possibility of some elevated  pulmonary venous pressure.  No evidence of pleural effusion or acute focal  pneumonia. ",
+        "concepts": "within limits normal size,mild indistinctness pulmonary vessels suggestive of indistinctness suggestive of pressure,elevated pressure pulmonary venous,no pleural effusion,no acute focal pneumonia,"
+    },
+    {
+        "id": "21",
+        "report": "     PA and lateral views of the chest provided.    There is no focal consolidation, effusion, or pneumothorax. The  cardiomediastinal silhouette is normal. Imaged osseous structures are intact.   No free air below the right hemidiaphragm is seen.    ",
+        "concepts": "no focal consolidation,no effusion,no pneumothorax,normal cardiomediastinal silhouette,intact osseous structures,"
+    },
+    {
+        "id": "72",
+        "report": "     Lung volumes are low, and the lungs are clear of focal consolidation, pleural  effusion or pneumothorax.  The heart size is normal.  The mediastinal contours  are normal.    ",
+        "concepts": "low lung volumes,no focal consolidation,no pleural effusion,no pneumothorax,normal heart size,normal mediastinal contours,"
+    },
+    {
+        "id": "82",
+        "report": "The cardiomediastinal contours are within normal limits.  The bilateral hila  are unremarkable.  There is a right lower lobe opacity which is concerning for  developing infection.  The remainder of the lungs are clear.  There is no  evidence of pulmonary vascular congestion.  There is no pneumothorax or  pleural effusion.",
+        "concepts": "normal hila,opacity right lower lobe,no congestion,no pneumothorax,no pleural effusion,"
+    },
+    {
+        "id": "22",
+        "report": "PA and lateral views of the chest were provided.  Midline  sternotomy wires and mediastinal clips are noted compatible with prior CABG.   The heart remained slightly enlarged.  There is mild pulmonary interstitial  edema and engorged hila.  There is no effusion or pneumothorax.  No definite  sign of pneumonia.  Bony structures are intact.  No free air below the right  hemidiaphragm.",
+        "concepts": "midline sternotomy wires,slightly enlarged heart,mild edema interstitial,engorged hila,no effusion,no pneumothorax,no pneumonia,intact bony structures,no below right hemidiaphragm free air,"
+    },
+    {
+        "id": "15",
+        "report": "Frontal and lateral radiographs of the chest show an opacification  projecting over the left heart on the frontal radiograph and the posterior  lung base on the corresponding lateral radiograph consistent with left lower  lobar pneumonia.  No pleural effusion or pneumothorax is present.  The  pulmonary vasculature is not engorged.  The cardiac silhouette is normal in  size.  The mediastinal and hilar contours are within normal limits.",
+        "concepts": "opacification left heart,opacification posterior lung base suggestive of opacification suggestive of pneumonia,pneumonia left lower lobar,no pleural effusion,no pneumothorax,no pulmonary vasculature engorged,normal cardiac silhouette,normal mediastinal contours,within hilar contours,"
+    },
+    {
+        "id": "68",
+        "report": "The heart is moderately enlarged.  There is mild prominence of  pulmonary vascularity and interstitium without frank pulmonary edema.  Patchy  opacity in the lingula is linear and suggests atelectasis.  Small bilateral  pleural effusions are suspected.  The lungs are hyperinflated.  There is a  mild lower thoracic wedge compression deformity that appears chronic and  correlates with the prior CT findings.  Mild degenerative changes involve the  right shoulder.",
+        "concepts": "moderately enlarged heart,mild prominence pulmonary vascularity,no frank,no edema,patchy opacity linear lingula suggestive of opacity suggestive of atelectasis,small effusions bilateral pleural,hyperinflated lungs,mild compression deformity chronic wedge,mild degenerative changes right shoulder,"
+    },
+    {
+        "id": "60",
+        "report": "     There is subtle right basilar opacity.  Elsewhere, lungs are clear. There is  no effusion or edema.  Cardiomediastinal silhouette is within normal limits.   No acute osseous abnormalities.  Degenerative changes noted at the shoulders.    ",
+        "concepts": "subtle opacity right basilar,clear lungs,no effusion,no edema,no osseous acute abnormalities,"
+    },
+    {
+        "id": "90",
+        "report": "     PA and lateral views of the chest provided.    There is no focal consolidation, effusion, or pneumothorax. The  cardiomediastinal silhouette is normal. Imaged osseous structures are intact.   No free air below the right hemidiaphragm is seen.    ",
+        "concepts": "no focal consolidation,no effusion,no pneumothorax,normal cardiomediastinal silhouette,intact osseous structures,"
+    },
+    {
+        "id": "29",
+        "report": "Frontal and lateral views of the chest were obtained.  The lungs  are clear without focal consolidation.  No pleural effusion or pneumothorax is  seen.  Cardiac and mediastinal silhouettes are unremarkable.  No displaced  fracture is seen.",
+        "concepts": "clear lungs,no focal consolidation,no pleural effusion,no pneumothorax,normal cardiac silhouettes,normal mediastinal silhouettes,no displaced fracture,"
+    },
+    {
+        "id": "80",
+        "report": "  No focal consolidation, pleural effusion, or pneumothorax is seen.   The lungs are hyperinflated.  Cardiomegaly is stable.  Dextroconvex thoracic  scoliosis is again noted.    ",
+        "concepts": "no focal consolidation,no pleural effusion,no pneumothorax,hyperinflated lungs,cardiomegaly stable,scoliosis thoracic,"
+    },
+    {
+        "id": "11",
+        "report": "  The heart is normal in size.  The mediastinal and hilar contours  appear within normal limits.  There is no pleural effusion or pneumothorax.   Although no prior comparison is available, there is increased opacity compared  to what is usually expected within the right medial lower lung, probably for  the most part within the right lower lobe.  However, there is also increased  patchy anterior opacity in the lateral view which is somewhat difficult to  place on the frontal perspective, either in the right middle lobe of lingula.   Bony structures appear within normal limits.    ",
+        "concepts": "normal heart size,normal mediastinal contours,normal hilar contours,no pleural effusion,no pneumothorax,increased opacity right medial lower lung,increased patchy opacity anterior,normal limits bony structures,"
+    },
+    {
+        "id": "28",
+        "report": "PA and lateral views of the chest are provided demonstrate trace  fluid tracking along the fissural surfaces.  There may be minimal interstitial  edema.  No definite signs of pneumonia or CHF.  Please note evaluation for PCP  on chest radiograph is limited.  Bony structures appear intact.  No free air  below the right hemidiaphragm.",
+        "concepts": "trace fluid fissural,minimal edema interstitial,no pneumonia,no chf,intact bony structures,no below right hemidiaphragm free air,"
+    },
+    {
+        "id": "30",
+        "report": "New widespread mild interstitial  pulmonary abnormality is probably edema even though there is no pleural  effusion.  Mediastinal adenopathy is most evident in the right paratracheal  station. There is no confluent consolidation.  Lateral view shows a blastic  changes throughout the spine especially a midthoracic vertebral body with no  loss of height or displacement, presumably treated malignancy. ",
+        "concepts": "new widespread mild abnormality interstitial pulmonary,no pleural effusion,adenopathy mediastinal,no consolidation,blastic changes spine vertebral body,no height,no displacement,"
+    },
+    {
+        "id": "88",
+        "report": "Lung volumes are low.  Heart size is mildly enlarged with a left ventricular  predominance.  Mediastinal contours are unremarkable.  There is no pulmonary  vascular congestion.  Patchy opacity is noted within the right lower lobe  concerning for pneumonia.  Minimal patchy opacities also noted within the  right perihilar region.  There is prominence of the left hilum.  No pleural  effusion or pneumothorax is present.  There are no acute osseous  abnormalities.",
+        "concepts": "low lung volumes,mildly enlarged,predominance ventricular,normal mediastinal contours,no pulmonary vascular congestion,patchy opacity suggestive of opacity suggestive of pneumonia,prominence left hilum,no pleural effusion,no pneumothorax,no osseous acute abnormalities,"
+    },
+    {
+        "id": "2",
+        "report": "     Opacity at the right lung base, silhouetting the right heart border and  defining the minor fissure, is thought to represent a combination of  atelectasis, pleural effusion and possibly consolidation.  Opacification at  the left lung base is presumably atelectasis. These findings limit limite  evaluation of heart size. There is no evidence for pulmonary edema.  No  pneumothorax. Mediastinal structures are unremarkable.    ",
+        "concepts": "opacity suggestive of opacity suggestive of atelectasis,opacity opacity suggestive of effusion,opacity opacity suggestive of consolidation,effusion pleural,opacification base suggestive of opacification suggestive of atelectasis,no pulmonary edema,no pneumothorax,normal mediastinal structures,"
+    },
+    {
+        "id": "48",
+        "report": "Heart size is normal.  The mediastinal and hilar contours are normal. The  pulmonary vasculature is normal. Lungs are clear.  No pleural effusion or  pneumothorax is seen. There are no acute osseous abnormalities.",
+        "concepts": "normal heart size,normal mediastinal contours,normal hilar contours,normal pulmonary vasculature,clear lungs,no pleural effusion,no pneumothorax,no osseous acute abnormalities,"
+    },
+    {
+        "id": "46",
+        "report": "Heart size is normal with mildly tortuous thoracic aorta.  Hilar  contours are unremarkable.  There is a subtle increased density in the  posterior lower lung fields on lateral view only without frontal correlate  which could represent atelectasis or a subtle pneumonia.  There is no pleural  effusion or pneumothorax.",
+        "concepts": "normal hilar contours,subtle pneumonia,no pleural effusion,no pneumothorax,"
+    },
+    {
+        "id": "59",
+        "report": "The patient is status post median  sternotomy.  The heart size is normal.  The hilar and cardiomediastinal  contours are within normal limits.  The lungs are hyperinflated, likely  reflecting chronic obstructive disease. The central pulmonary vessels are  prominent, however, there is no interstitial edema.  A left basilar density  may reflect a consolidation with a possible effusion.  There is no  pneumothorax. ",
+        "concepts": "normal heart size,within normal cardiomediastinal contours,hyperinflated lungs suggestive of hyperinflated suggestive of chronic obstructive disease,chronic obstructive disease,prominent pulmonary vessels,no interstitial edema,density left basilar suggestive of density suggestive of consolidation,no pneumothorax,"
+    },
+    {
+        "id": "16",
+        "report": "The lungs are well expanded. Cephalization of the pulmonary vasculature is  seen without overt pulmonary edema.  There is also an enlarged cardiac  silhouette.  Slight blunting of the posterior costophrenic angles is seen on  the lateral view which may be due to trace pleural effusions.",
+        "concepts": "well expanded lungs,cephalization pulmonary vasculature,no pulmonary overt edema,enlarged cardiac silhouette,slight blunting suggestive of blunting suggestive of effusions,trace effusions pleural,"
+    },
+    {
+        "id": "65",
+        "report": "There is a heterogeneous opacity in the lower lung seen best on the lateral  view. The lungs are otherwise clear. The hilar and cardiomediastinal contours  are normal. There is no pneumothorax. There is no pleural effusion. Pulmonary  vascularity is normal.",
+        "concepts": "heterogeneous opacity lower lung,clear lungs,normal hilar contours,normal cardiomediastinal contours,no pneumothorax,no pleural effusion,normal vascularity,"
+    },
+    {
+        "id": "42",
+        "report": "  Frontal and lateral views of the chest were obtained.  There is a  large right-sided pleural effusion with overlying atelectasis, underlying  consolidation is not excluded.  There is minimal blunting of the left  costophrenic angle on the frontal view, not well substantiated on the lateral  view with a very trace left pleural effusions not excluded.  No definite focal  consolidation is seen in the left lung.  The patient is status post median  sternotomy.  The right aspect of the cardiac silhouette is not well assessed  due to the large right-sided opacity.  Old-appearing rib fracture is seen  approximately at the level of the right posterior sixth rib.  The posterior  ribs inferior to this are not well assessed due to large right-sided opacity.    ",
+        "concepts": "large effusion right - sided pleural,overlying atelectasis right - sided,blunting not well substantiated well substantiated left costophrenic angle,trace effusions left pleural,not well assessed,large opacity right - sided suggestive of opacity suggestive of not well assessed,old - appearing fracture rib,not well assessed posterior ribs inferior,large opacity right - sided,"
+    },
+    {
+        "id": "66",
+        "report": "The heart and mediastinum are normal.  The lung fields are clear.  No evidence  of pneumonia. ",
+        "concepts": "normal heart,normal mediastinum,no pneumonia,"
+    },
+    {
+        "id": "27",
+        "report": "Heart size is normal.  Mediastinal and hilar contours are unremarkable.  The  pulmonary vasculature is normal.  Consolidation in the right middle lobe is  concerning for pneumonia.  Patchy opacities also noted within the left lower  lobe also a an additional site for infection.  No pleural effusion or  pneumothorax is present.  No acute osseous abnormality is visualized.",
+        "concepts": "normal heart size,normal mediastinal contours,normal hilar contours,normal vasculature,consolidation right middle lobe suggestive of consolidation suggestive of pneumonia,patchy opacities left lower lobe suggestive of patchy opacities suggestive of infection,no pleural effusion,no pneumothorax,no osseous acute abnormality,"
+    },
+    {
+        "id": "86",
+        "report": "The lungs are well expanded and clear.  The  cardiomediastinal silhouette, hilar contours, and pleural surfaces are normal.  No pleural effusion or pneumothorax is present.  ",
+        "concepts": "well expanded lungs,clear lungs,normal cardiomediastinal silhouette,normal hilar contours,normal pleural surfaces,no pleural effusion,no pneumothorax,"
+    },
+    {
+        "id": "26",
+        "report": "  AP and lateral views of the chest.  There is patchy opacity in the  left lower lobe that may represent consolidation.  The upper lung zones are  clear.  Cardiac, mediastinal and hilar contours are normal.  There is no  pleural effusion.  No pneumothorax.    ",
+        "concepts": "patchy opacity left lower lobe suggestive of opacity suggestive of consolidation,clear upper lung zones,normal cardiac contours,normal mediastinal contours,normal hilar contours,no pleural effusion,no pneumothorax,"
+    },
+    {
+        "id": "91",
+        "report": "The heart is at the upper limits of normal size.  The mediastinal  and hilar contours appear within normal limits.  The lungs are clear.  There  are no pleural effusions or pneumothorax.  The bony structures are  unremarkable.",
+        "concepts": "normal limits mediastinal contours,normal hilar contours,clear lungs,no pleural effusions,no pneumothorax,normal bony structures,"
+    },
+    {
+        "id": "23",
+        "report": "PA and lateral views of the chest provided.    Radiopaque aortic valve replacement is noted.    Lung volumes are low.  Linear opacities in the right lower lobe likely  represent basilar atelectasis.  There is blunting of the right greater than  left posterior costophrenic angles which may represent trace bilateral pleural  effusions.  There is no focal consolidation or pneumothorax.  Heart size is  top normal.  Median sternotomy wires are noted. Imaged osseous structures are  intact.  No free air below the right hemidiaphragm is seen.",
+        "concepts": "radiopaque replacement aortic valve,low lung volumes,linear opacities right lower lobe suggestive of linear opacities suggestive of atelectasis,atelectasis basilar,blunting greater right left posterior costophrenic angles suggestive of blunting suggestive of effusions,trace effusions,no consolidation,no pneumothorax,top normal heart size,intact osseous structures,no below right hemidiaphragm free air,"
+    },
+    {
+        "id": "63",
+        "report": "Heart size is normal.  The mediastinal and hilar contours are normal. The  pulmonary vasculature is normal.  There is a retrocardiac opacity which  obscures the left hemidiaphragm concerning for pneumonia. There is no evidence  of pneumothorax.  Small left pleural effusion is noted.  Large ___.8-cm  (craniocaudal) left-sided pleural based lateral opacity may represent a  loculated pleural effusion.",
+        "concepts": "normal heart size,normal mediastinal contours,normal hilar contours,normal vasculature,opacity retrocardiac suggestive of opacity suggestive of pneumonia,obscures left hemidiaphragm,no pneumothorax,small effusion left pleural,large opacity left - sided pleural based lateral suggestive of opacity suggestive of effusion,loculated effusion,"
+    },
+    {
+        "id": "76",
+        "report": "     The lungs are well inflated.  A retrocardiac opacity corresponds with a left  lower lobe opacity on the lateral view, compatible with pneumonia. The right  lung is clear.  Cardiomediastinal silhouettes are normal.  No pneumothorax or  pleural effusion.    ",
+        "concepts": "opacity retrocardiac suggestive of opacity suggestive of pneumonia,opacity left lower lobe suggestive of opacity suggestive of pneumonia,clear right lung,normal cardiomediastinal silhouettes,no pneumothorax,no pleural effusion,"
+    },
+    {
+        "id": "14",
+        "report": "  PA and lateral views of the chest were provided demonstrating no  focal consolidation, effusion or pneumothorax.  Cardiomediastinal silhouette  is normal.  Bony structures are intact.  No free air below the right  hemidiaphragm.    ",
+        "concepts": "no focal consolidation,no effusion,no pneumothorax,normal cardiomediastinal silhouette,intact bony structures,no free air,"
+    },
+    {
+        "id": "7",
+        "report": "Low lung volumes, moderate scoliosis.  A zone of increased lung density seen  in the retrocardiac lung regions and, projecting over the lower parts of the  spine, on the lateral radiograph in the lower lobe.  In the appropriate  clinical setting, these findings are suggestive of pneumonia. Borderline size  of the cardiac silhouette. Mild elongation of the descending aorta.  No  pleural effusions.  No pulmonary edema. ",
+        "concepts": "low lung volumes,increased density lower parts spine suggestive of density suggestive of pneumonia,borderline size cardiac silhouette,mild elongation descending aorta,no pleural effusions,no pulmonary edema,"
+    },
+    {
+        "id": "39",
+        "report": "  There is a new consolidative right upper lobe opacity containing  air bronchograms, abutting the superior margin of the major fissure,  compatible with infection.  The remainder of the lungs are otherwise clear.   The cardiac and mediastinal contours are normal.  There are no pleural  effusions.  No pneumothorax is seen.    ",
+        "concepts": "new consolidative opacity abutting right upper lobe,clear lungs,normal cardiac contours,normal mediastinal contours,no pleural effusions,no pneumothorax,"
+    },
+    {
+        "id": "93",
+        "report": "Moderate enlargement of the cardiac  silhouette appears relatively unchanged compared to prior study.  Worsening  opacification within the right lung base is concerning for an infectious  process.  There is a small to moderate sized right pleural effusion. The  aortic knob remains calcified.  There are persistent ill-defined nodular  opacities demonstrated within the upper lobes, slightly progressed when  compared to the prior study, which could represent an inflammatory or  infectious process.  Deformity of the left humeral head is suggestive of old  trauma, with degenerative changes.  ",
+        "concepts": "moderate enlargement cardiac silhouette,worsening opacification,small moderate sized effusion right pleural,calcified knob,slightly progressed,deformity suggestive of deformity suggestive of old trauma,old trauma,"
+    },
+    {
+        "id": "57",
+        "report": "  Frontal and lateral views of the chest were obtained.  Lung volumes  are slightly low resulting in bronchovascular crowding.  There is no focal  consolidation, pleural effusion or pneumothorax.  Cardiac and mediastinal  silhouettes and hilar contours are within normal limits allowing for lung  volumes.  No displaced rib fracture is seen.  There is no air under the  diaphragm.    ",
+        "concepts": "low lung volumes suggestive of low suggestive of crowding,crowding bronchovascular,no focal consolidation,no pleural effusion,no pneumothorax,normal limits cardiac silhouettes,normal mediastinal silhouettes,normal hilar contours,no rib displaced fracture,no under diaphragm air,"
+    },
+    {
+        "id": "38",
+        "report": "The lungs are clear noting right basilar linear subsegmental atelectasis.  The  cardiomediastinal silhouette is within normal limits.  No acute osseous  abnormalities.",
+        "concepts": "clear lungs,atelectasis basilar,atelectasis subsegmental,no osseous acute abnormalities,"
+    },
+    {
+        "id": "51",
+        "report": "The lungs are clear. The cardiomediastinal silhouette is normal. No acute  osseous abnormalities identified.",
+        "concepts": "clear lungs,normal cardiomediastinal silhouette,no osseous acute abnormalities,"
+    },
+    {
+        "id": "64",
+        "report": "The cardiomediastinal and hilar contours are normal.  There is no pleural  effusion or pneumothorax.  The lungs are well-expanded and clear without focal  consolidation concerning for pneumonia.  Pulmonary vasculature is within  normal limits.",
+        "concepts": "normal cardiomediastinal contours,normal hilar contours,no pleural effusion,no pneumothorax,well - expanded lungs,clear lungs,no focal consolidation,no pneumonia,"
+    },
+    {
+        "id": "71",
+        "report": "  A right internal jugular venous catheter has been removed.  The  patient is status post apparently mitral valve replacement.  The heart is  moderately enlarged.  The mediastinal and hilar contours are similar.  There  is persistent fluid in the minor fissure, but somewhat decreased.  A small  quantity of fluid is similar in the right major fissure.  However, there is a  new suspected small pleural effusion on the left with patchy associated  basilar opacity and there is also increased opacification at the right lung  base.  There is no overt congestive heart failure.  There is no pneumothorax.   Bony structures are unremarkable.    ",
+        "concepts": "no right internal venous catheter,replacement mitral valve,moderately enlarged heart,similar mediastinal contours,similar hilar contours,fluid minor fissure,small quantity fluid similar right major fissure,new small effusion pleural left,patchy opacity basilar,increased opacification base,no congestive,no heart failure,no pneumothorax,normal bony structures,"
+    },
+    {
+        "id": "32",
+        "report": "PA and lateral views of the chest provided.   There is near complete  opacification of the left hemi thorax with volume loss and residual bubbly  lucency in the mid to upper lung.  There is significant leftward shift of the  cardiomediastinal silhouette.  Within the right lung there are scattered  nodular and ill-defined opacities potentially concerning for pneumonia.   Difficult to exclude a left pleural effusion.  No large right effusion.  No  large pneumothorax.  Bony structures appear grossly intact.",
+        "concepts": "complete opacification left hemi thorax,residual bubbly lucency,shift leftward,shift cardiomediastinal silhouette,scattered nodular,ill - defined opacities suggestive of ill - defined opacities suggestive of pneumonia,effusion left pleural,no right large effusion,no large pneumothorax,"
+    },
+    {
+        "id": "45",
+        "report": "The heart is of normal size.  The aorta is mildly unfolded.   Cardiomediastinal contours are otherwise normal.  Pulmonary vasculature is  unremarkable.  The lungs are clear without focal or diffuse abnormality.  No  pleural effusion or pneumothorax.  No radiopaque foreign body.  Osseous  structures are unremarkable.",
+        "concepts": "normal heart size,mildly unfolded aorta,normal cardiomediastinal contours,clear lungs,no focal diffuse abnormality,no pleural effusion,no pneumothorax,"
+    },
+    {
+        "id": "12",
+        "report": "     There is mild cardiomegaly.  .  The mediastinal contour is stable.  Lung  volumes are low resulting in mild basilar atelectasis.  There is no  consolidation or pleural effusion.  A left upper lobe granuloma is stable over  multiple prior studies, dating back to the CT scan of ___.    ",
+        "concepts": "mild cardiomegaly,stable mediastinal contour,low lung volumes suggestive of low suggestive of atelectasis,mild atelectasis basilar,no consolidation,no pleural effusion,granuloma stable left upper lobe,"
+    },
+    {
+        "id": "50",
+        "report": "     PA and lateral views of the chest provided.    There is no focal consolidation, effusion, or pneumothorax. The  cardiomediastinal silhouette is normal. Imaged osseous structures are intact.   No free air below the right hemidiaphragm is seen.    ",
+        "concepts": "no focal consolidation,no effusion,no pneumothorax,normal cardiomediastinal silhouette,intact osseous structures,"
+    },
+    {
+        "id": "84",
+        "report": " There is a single-lead pacemaker device with a lead terminating in  the right ventricle.  The heart is again moderately enlarged.  The cardiac,  mediastinal and hilar contours appear stable.  Trace posterior bilateral  pleural effusions are suspected due to blunting of posterior costophrenic  sulci.  In the right perihilar region, there is a vague opacity suggesting  pneumonia in the right lower lobe.  Vague opacity in the left mid lung is not  necessarily changed since remote prior radiographs, however, and may be  associated with slight scarring.    ",
+        "concepts": "single - lead pacemaker device lead,moderately enlarged heart,stable cardiac contours,stable mediastinal contours,stable hilar contours,trace effusions posterior bilateral pleural,blunting posterior costophrenic sulci,pneumonia right lobe,vague opacity changed left mid lung,"
+    },
+    {
+        "id": "69",
+        "report": "Bilateral perihilar patchy opacities may relate to pulmonary edema although  multifocal infectious process is not excluded in the appropriate clinical  setting. There is no pleural effusion or pneumothorax. The cardiac silhouette  is moderately enlarged. Mediastinal contours are unremarkable.",
+        "concepts": "patchy opacities bilateral perihilar suggestive of patchy opacities suggestive of edema,edema pulmonary,no pleural effusion,no pneumothorax,moderately enlarged cardiac silhouette,normal mediastinal contours,"
+    },
+    {
+        "id": "55",
+        "report": "     Frontal and lateral chest radiograph demonstrates moderately well inflated  lungs. Right lower lobe opacity is present.  The right hilar is prominent.  Left lung is clear. No pleural effusion or pneumothorax. Heart size,  mediastinal contour, and hila are unremarkable. The aorta is tortuous.    Limited assessment of the upper abdomen is within normal limits.    ",
+        "concepts": "moderately well inflated lungs,opacity right lower lobe,prominent right hilar,clear left lung,no pleural effusion,no pneumothorax,normal heart size,normal mediastinal contour,normal hila,tortuous aorta,normal upper abdomen,"
+    },
+    {
+        "id": "53",
+        "report": "     PA and lateral views of the chest provided.    There is no focal consolidation, effusion, or pneumothorax. The  cardiomediastinal silhouette is normal. Imaged osseous structures are intact.   No free air below the right hemidiaphragm is seen.    ",
+        "concepts": "no focal consolidation,no effusion,no pneumothorax,normal cardiomediastinal silhouette,intact osseous structures,"
+    },
+    {
+        "id": "75",
+        "report": "     The lungs are clear of focal consolidation, pleural effusion or pneumothorax.   The heart size is normal.  The mediastinal contours are normal.    ",
+        "concepts": "no focal consolidation,no pleural effusion,no pneumothorax,normal heart size,normal mediastinal contours,"
+    },
+    {
+        "id": "10",
+        "report": "The heart size is mildly enlarged.  The aorta is slightly unfolded.  The  mediastinal contours are otherwise unremarkable.  There is mild pulmonary  vascular congestion.  A somewhat peripheral opacity projecting over the left  lateral lung base may be due to overlying soft tissue.  No pleural effusion or  pneumothorax is present.  Streaky opacities in the lung lower lungs likely  reflect atelectasis.  No pneumothorax is identified.  There is minimal  scarring within the lung apices.  No acute osseous abnormalities are otherwise  demonstrated.",
+        "concepts": "mildly enlarged,slightly unfolded aorta,normal mediastinal contours,mild congestion pulmonary vascular,peripheral opacity base suggestive of opacity suggestive of soft tissue,soft tissue,no pleural effusion,no pneumothorax,streaky opacities lung lower lungs suggestive of streaky opacities suggestive of atelectasis,minimal scarring,no osseous acute abnormalities,"
+    },
+    {
+        "id": "62",
+        "report": "PA and lateral views of the chest provided.   There is marked cardiomegaly  with mild pulmonary edema. Tiny right pleural effusion is present. No  pneumothorax. No convincing signs of pneumonia. Mediastinal contour appears  grossly unremarkable. Imaged osseous structures are intact.  No free air below  the right hemidiaphragm is seen.",
+        "concepts": "mild edema pulmonary,tiny effusion,no pneumothorax,no pneumonia,normal mediastinal contour,intact osseous structures,no below right hemidiaphragm free air,"
+    },
+    {
+        "id": "5",
+        "report": "  PA and lateral chest radiographs demonstrate focal opacity in the  both lower lobes compatible with atelectasis or early pneumonia.  There is  biapical scarring.  There may be a tiny right pleural effusion.  The  cardiomediastinal silhouette is normal.  A tortuous aorta is noted.   Cholecystectomy clips are noted. Multiple old bilateral rib fractures are  noted, and a mild to moderate compression deformity of an upper lumbar  vertebral body is age-indeterminate.    ",
+        "concepts": "focal opacity both lower lobes suggestive of opacity suggestive of atelectasis,focal opacity suggestive of pneumonia,early pneumonia,scarring biapical,tiny effusion right pleural,normal cardiomediastinal silhouette,tortuous aorta,cholecystectomy clips,multiple old fractures bilateral rib,mild moderate compression age - indeterminate body,"
+    },
+    {
+        "id": "52",
+        "report": "The cardiomediastinal and hilar contours are normal.  The lungs  demonstrate subtle bibasilar opacities.  There is no pleural effusion or  pneumothorax.",
+        "concepts": "normal cardiomediastinal contours,normal hilar contours,subtle opacities bibasilar,no pleural effusion,no pneumothorax,"
+    },
+    {
+        "id": "96",
+        "report": "  PA and lateral views of the chest are obtained.  There is subtle  opacity in the expected region of the inferior lingula, which could represent  an early or resolving pneumonia.  The remainder of the lungs appears clear.   No pleural effusion or pneumothorax.  Heart size appears normal.  The aorta is  slightly unfolded.  Bony structures are intact.    ",
+        "concepts": "subtle opacity inferior lingula suggestive of opacity suggestive of early,subtle opacity suggestive of pneumonia,clear remainder lungs,no pleural effusion,no pneumothorax,normal heart size,slightly unfolded,intact bony structures,"
+    },
+    {
+        "id": "19",
+        "report": "     Bilateral lower lobe consolidations are worrisome for multifocal pneumonia.  There is also subtle right apical opacity, new since the prior study which may  be due additional site of infection. There may be a small left pleural  effusion. No pneumothorax is seen. The cardiac silhouette remains mildly  enlarged. Mediastinal contours are unremarkable and stable.    ",
+        "concepts": "consolidations bilateral lower lobe suggestive of consolidations suggestive of pneumonia,multifocal pneumonia,subtle opacity new right apical suggestive of opacity suggestive of infection,small effusion left pleural,no pneumothorax,mildly enlarged,normal mediastinal contours,stable mediastinal contours,"
+    },
+    {
+        "id": "40",
+        "report": "Heart size is normal.  The mediastinal and hilar contours are normal. The  pulmonary vasculature is normal. Lungs are clear.  No pleural effusion or  pneumothorax is seen.",
+        "concepts": "normal heart size,normal mediastinal contours,normal hilar contours,normal pulmonary vasculature,clear lungs,no pleural effusion,no pneumothorax,"
+    },
+    {
+        "id": "78",
+        "report": "Interval removal of the right internal jugular approach dialysis catheter.   The cardiomediastinal and hilar contours are stable with moderate  cardiomegaly.  A small right pleural effusion is worsened compared to the  prior study.  The lungs are well expanded with atelectasis at the right lung  base.  Previously seen left retrocardiac opacity is improved. There is no  focal consolidation concerning for pneumonia.  Cephalization of vessels with  increased prominence of the azygos vein indicate mild volume overload.",
+        "concepts": "no right internal jugular dialysis catheter,stable cardiomediastinal contours,stable hilar contours,moderate cardiomegaly,small effusion worsened right pleural,well expanded lungs,atelectasis base,opacity improved left retrocardiac,no focal consolidation,no pneumonia,cephalization vessels,mild volume overload,"
+    },
+    {
+        "id": "85",
+        "report": "Most striking abnormality seen on the frontal view is a region of indistinctly  marginated opacity in the right lower lung, triangulating to the middle lobe  on the lateral view.  Lateral view also shows a new sharply marginated region  of opacity obscuring the left hemidiaphragm over the stomach.  Finally, there  is a new region of irregular opacities in the right apex projecting over the  second anterior rib which could be a cavity, alongside a region of mild  pleural thickening.  The constellation of findings is not simply explained by  a single diagnosis but is worrisome for a variety of conditions including  multifocal pneumonia, pulmonary infarctions and tuberculosis, in the right  apex.  Dr. ___ ___ I discussed these findings by telelphone, and agreed the  patient should have a CTA.    There is no layering pleural effusion.  Heart size is top normal, exaggerated  by a pectus deformity.  There is no good evidence for central lymph node  enlargement. ",
+        "concepts": "striking abnormality,marginated opacity triangulating right lower lung,new sharply marginated opacity obscuring,irregular opacities suggestive of irregular opacities suggestive of cavity,irregular opacities right apex suggestive of opacities suggestive of cavity,mild thickening pleural,multifocal pneumonia,infarctions pulmonary,tuberculosis right apex,no pleural layering effusion,top normal,exaggerated pectus deformity deformity,no lymph node enlargement,"
+    },
+    {
+        "id": "24",
+        "report": "PA and lateral views of the chest were provided.  There is a right IJ central  venous catheter with its tip near the mid SVC.  There is consolidation within  the right middle and right lower lobes concerning for pneumonia.  The left  lung is clear.  There is likely a small right pleural effusion.  No  pneumothorax is seen.  Clips are seen in the right axilla and right chest  wall.  There is no free air below the right hemidiaphragm.  The heart and  mediastinal contour is normal.  No acute osseous abnormality.",
+        "concepts": "central venous catheter tip right ij,consolidation right middle right lower lobes suggestive of consolidation suggestive of pneumonia,clear left lung,small effusion right pleural,no pneumothorax,no below right hemidiaphragm free air,normal heart contour,normal mediastinal contour,no osseous acute abnormality,"
+    },
+    {
+        "id": "43",
+        "report": "The lungs are well expanded.  The right lung is clear.  There is an  opacity blunting the left costophrenic angle which is confirmed in the lateral  view without clear fluid meniscus.  The remaining of the left lung is clear.   The cardiomediastinal and hilar contours are unremarkable.  There is no  evident pleural effusion or pneumothorax.",
+        "concepts": "well expanded lungs,clear right lung,opacity blunting left costophrenic angle,no clear fluid meniscus,clear left lung,normal cardiomediastinal contours,normal hilar contours,no pleural effusion,no pneumothorax,"
+    },
+    {
+        "id": "31",
+        "report": "Moderate cardiomegaly without priors for comparison.  No evidence of pulmonary  edema.  No focal consolidations.  No pleural effusion or pneumothorax. There  are no acute osseous abnormalities.",
+        "concepts": "moderate cardiomegaly,no pulmonary edema,no focal consolidations,no pleural effusion,no pneumothorax,no osseous acute abnormalities,"
+    },
+    {
+        "id": "25",
+        "report": "  PA and lateral views of the chest provided demonstrate no focal  consolidation, effusion or pneumothorax.  Cardiomediastinal silhouette is  normal.  Bony structures appear intact.  Patient rotation likely accounts for  subtle opacity in the inferior costophrenic recess.  No pneumothorax.  Bony  structures are intact.    ",
+        "concepts": "no focal consolidation,no effusion,no pneumothorax,normal cardiomediastinal silhouette,intact bony,subtle opacity inferior costophrenic recess,"
+    },
+    {
+        "id": "35",
+        "report": "    The cardiac, mediastinal and hilar contours are normal.  Lungs are clear.  No  pleural effusion or pneumothorax is present.  Pulmonary vascularity is normal.  There are no acute osseous abnormalities.    ",
+        "concepts": "normal cardiac contours,normal mediastinal contours,normal hilar contours,clear lungs,no pleural effusion,no pneumothorax,normal vascularity,no osseous acute abnormalities,"
+    },
+    {
+        "id": "70",
+        "report": "     The lungs are hyperexpanded.  No focal consolidation, pleural effusion or  pneumothorax. The cardiomediastinal and hilar contours are normal.    ",
+        "concepts": "hyperexpanded lungs,no focal,no consolidation,no pleural effusion,no pneumothorax,normal cardiomediastinal contours,normal hilar contours,"
+    },
+    {
+        "id": "77",
+        "report": "     Lungs are fully expanded and clear.  Cardiomediastinal and hilar contours are  within normal limits. There is no pleural effusion or pneumothorax. The mid  esophagus is mildly distended with air, not necessarily clinically  significant.    ",
+        "concepts": "fully expanded lungs,clear lungs,normal cardiomediastinal contours,normal hilar contours,no pleural effusion,no pneumothorax,mildly distended,"
+    },
+    {
+        "id": "1",
+        "report": "     Subtle patchy lateral left base opacity is nonspecific, but infectious process  versus scarring may be present.  Some thickening is seen along the major  fissure on the lateral view, much less likely trace fluid in the fissure.  No  pleural effusion is seen at the posterior costophrenic angles.  No  pneumothorax is seen. The cardiac and mediastinal silhouettes are  unremarkable.  Evidence of DISH is seen along the spine.    ",
+        "concepts": "subtle patchy opacity nonspecific lateral left base suggestive of opacity suggestive of scarring,no pleural angles effusion,no pneumothorax,normal cardiac silhouettes,normal mediastinal silhouettes,dish spine,"
+    },
+    {
+        "id": "54",
+        "report": "     PA and lateral views the chest were provided.  Lung volumes are low and there  is elevation of the right hemidiaphragm.  There is a vague ground-glass  opacity in the right lung apex which is indeterminate, possibly representing  scarring though in the absence of prior imaging, a nonemergent CT of the chest  may be obtained to further assess.  There is mild perihilar reticulation in  the left lung.  No large effusion or pneumothorax.  The cardiomediastinal  silhouette appears upper limits of normal.  Bony structures are intact.    ",
+        "concepts": "low lung volumes,elevation right hemidiaphragm,ground - glass opacity indeterminate suggestive of ground - glass opacity suggestive of scarring,mild reticulation perihilar,no large effusion,no pneumothorax,normal cardiomediastinal silhouette,intact bony structures,"
+    },
+    {
+        "id": "13",
+        "report": "  There has been significant interval increase in prominence of the  interstitial markings diffusely, with most dense in the bilateral lung bases  and right upper lobe worrisome for worsening of chronic interstitial disease  with superimposed acute component of infection/inflammation.  No large pleural  effusion is seen.  There is no pneumothorax.  Cardiac and mediastinal  silhouettes are stable.  The aorta is calcified.    ",
+        "concepts": "markings diffusely most dense dense interstitial,worsening chronic disease interstitial,acute infection,no pleural large effusion,no pneumothorax,stable cardiac silhouettes,stable mediastinal silhouettes,calcified aorta,"
+    },
+    {
+        "id": "17",
+        "report": "PA and lateral views of the chest.  Low lung volumes.  There is no focal  consolidation or pleural effusion or pneumothorax.  The cardiomediastinal  hilar contours are normal.",
+        "concepts": "low lung volumes,no focal consolidation,no pleural effusion,no pneumothorax,normal hilar contours,"
+    },
+    {
+        "id": "41",
+        "report": "  The lungs are clear with no evidence of consolidation, effusion, or  pneumothorax.  Lung volumes are low.  Cardiomediastinal silhouette is normal.   No acute fractures are identified.    ",
+        "concepts": "clear lungs,no consolidation,no effusion,no pneumothorax,low lung volumes,normal cardiomediastinal silhouette,no acute fractures,"
+    },
+    {
+        "id": "98",
+        "report": "There is a vague opacity seen within  the right lower lobe, concerning for pneumonia.  There is no pleural effusion  or pneumothorax.  The heart size is mildly enlarged.  The hilar and  mediastinal structures are unremarkable.  ",
+        "concepts": "vague opacity suggestive of opacity suggestive of pneumonia,no pleural effusion,no pneumothorax,enlarged heart size,normal hilar structures,normal mediastinal structures,"
+    }
+]
