@@ -1,0 +1,27 @@
+================================================================================
+F1 SCORE RESULTS (FUZZY MATCHING)
+================================================================================
+
+Total documents evaluated: 19
+
+Threshold | Precision | Recall  | F1 Score | (TP, FP, FN)
+------------------------------------------------------------
+   0.50   |   0.4341  | 0.7761 |  0.5568  | (201, 262, 58)
+   0.60   |   0.3844  | 0.6873 |  0.4931  | (178, 285, 81)
+   0.70   |   0.2981  | 0.5328 |  0.3823  | (138, 325, 121)
+   0.75   |   0.2981  | 0.5328 |  0.3823  | (138, 325, 121)
+   0.80   |   0.2786  | 0.4981 |  0.3573  | (129, 334, 130)
+   0.85   |   0.1965  | 0.3514 |  0.2521  | (91, 372, 168)
+   0.90   |   0.1447  | 0.2587 |  0.1856  | (67, 396, 192)
+
+--- Document 4 ---
+GT:   ['normal trachea', 'normal bronchi', 'nodular lesions with ground glass opacity', 'subcentimeter nodules', 'minimal emphysematous changes', 'normal heart contour and size', 'no pleural effusion', 'no pericardial effusion', 'normal mediastinal vascular structures', 'central venous catheter', 'no enlarged lymph nodes', 'normal esophagus', 'no fractures or lytic-destructive bone lesions', 'no upper abdominal free fluid', 'no pathologically enlarged lymph nodes']
+PRED: ['no pathology', 'nodular lesions', 'ground glass opacity', 'right middle lobes', 'right lung', 'nonspecific', 'clinical context', 'pneumonia', 'infection', 'fungal', 'evaluation', 'laboratory correlation', 'nodules', 'no masses', 'minimal emphysematous changes', 'normal heart contour', 'no pericardial effusion', 'normal mediastinal', 'normal vascular structures', 'right normal central venous catheter', 'right superior vena', 'cava-right atrium junction', 'mediastinal structures', 'no lymph nodes', 'no hilar regions', 'no pathological wall', 'no fractures', 'no lytic-destructive lesions', 'no collections']
+
+--- Document 5 ---
+GT:   ['COVID-19 pneumonia', 'progression of parenchymal findings', 'widespread linear atelectasis']
+PRED: ['covid-19 pneumonia', 'progression', 'parenchymal findings', 'stable linear atelectasis']
+
+--- Document 14 ---
+GT:   ['open trachea', 'open bronchi', 'subcentimeter calcific nodule', 'subcentimeter nonspecific nodules', 'normal lung ventilation', 'normal heart', 'no pleural effusion', 'no pericardial effusion', 'normal mediastinal vascular structures', 'no enlarged lymph nodes', 'normal esophagus', 'normal vertebral bodies', 'no lytic or destructive bone lesions', 'no free fluid in upper abdomen', 'no pathological lymph nodes', 'no mass in upper abdominal organs', 'breast implants']
+PRED: ['no obstructive pathology', 'calcific nodule', 'right upper lobe', 'right lung', 'nonspecific', 'nodules', 'left upper lobe', 'left lung', 'left normal ventilation', 'normal no mass', 'no infiltrative lesion', 'normal heart contour', 'no pericardial effusion', 'normal vascular structures', 'normal mediastinal structures', 'no lymph nodes', 'no hilar regions', 'no pathological wall', 'thoracic vertebral body heights', 'normal alignments', 'normal densities', 'normal intervertebral disc', 'neural foramina', 'no destructive lesions', 'no free fluid', 'no collection', 'no enlarged', 'no pathological dimensions', 'upper abdominal organs', 'implants', 'breasts']
